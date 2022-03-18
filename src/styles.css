@@ -1,2 +1,6 @@
 /*font-family: 'Merriweather', serif;
 font-family: 'Montserrat', sans-serif;*/
+:root {
+  --primary-color: #adefd1ff;
+  --secondary-color: #00203fff;
+}
