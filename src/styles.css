@@ -4,3 +4,12 @@ font-family: 'Montserrat', sans-serif;*/
   --primary-color: #adefd1ff;
   --secondary-color: #00203fff;
 }
+a {
+  padding: 50px;
+}
+
+.agatha-picture {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
