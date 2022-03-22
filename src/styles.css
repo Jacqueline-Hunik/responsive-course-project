@@ -59,3 +59,25 @@ a {
 .description-text {
   border: 2px black solid;
 }
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  .project-pictures {
+    display: none;
+  }
+  .contact-link {
+    margin-bottom: 60px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2,
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 17px;
+  }
+}
