@@ -48,10 +48,6 @@ a {
   margin: 0 auto;
 }
 
-.weather-picture {
-  margin-top: 40px;
-}
-
 .project-btn {
   margin-top: 65px;
 }
@@ -79,5 +75,15 @@ a {
   }
   p {
     font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-pictures {
+    width: 100%;
+  }
+  .weather-pic {
+    width: 100%;
+    margin-top: 100px;
   }
 }
