@@ -10,6 +10,10 @@ h1 {
   font-size: 70px;
 }
 
+img {
+  border-radius: 10px;
+}
+
 h2,
 h4 {
   margin-top: 20px;
@@ -54,10 +58,33 @@ a {
 
 .description-text {
   border: 2px black solid;
+  border-radius: 10px;
+  padding: 80px 20px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 30px;
+}
+.about-section p {
+  font-size: 18px;
+}
+.about-section img {
+  padding: 120px 20px;
+}
+.about-section-content {
+  margin: 30px;
 }
 
 @media (max-width: 576px) {
-  img {
+  .weather-pic {
     display: none;
   }
   .project-pictures {
@@ -75,6 +102,20 @@ a {
   }
   p {
     font-size: 17px;
+  }
+
+  .about-section h1 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+
+  .about-section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .about-section img {
+    padding: 40px 20px;
   }
 }
 
