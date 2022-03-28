@@ -4,9 +4,12 @@ font-family: 'Lobster', cursive;*/
 :root {
   --primary-color: #adefd1ff;
   --secondary-color: #00203fff;
+  --heading-1-font: "Lobster", cursive;
+  --secondary-heading-font: "Merriweather", serif;
+  --paragraph-font: "Montserrat", sans-serif;
 }
 h1 {
-  font-family: "Lobster", cursive;
+  font-family: var(--heading-1-font);
   font-size: 70px;
 }
 
@@ -17,12 +20,12 @@ img {
 h2,
 h4 {
   margin-top: 20px;
-  font-family: "Merriweather", serif;
+  font-family: var(--secondary-heading-font);
 }
 
 p {
   font-size: 25px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--paragraph-font);
 }
 a {
   font-size: 20px;
@@ -62,25 +65,34 @@ a {
   padding: 80px 20px;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 30px;
 }
-.about-section p {
+.content p {
   font-size: 18px;
 }
-.about-section img {
+.content h3 {
+  font-family: var(--secondary-heading-font);
+  line-height: 1.5;
+  font-size: 24px;
+}
+.content-container img {
   padding: 120px 20px;
 }
-.about-section-content {
+.content {
   margin: 30px;
+}
+
+.weather-img {
+  padding: 40px 20px 100px 20px !important;
 }
 
 @media (max-width: 576px) {
@@ -104,18 +116,22 @@ a {
     font-size: 17px;
   }
 
-  .about-section h1 {
+  .content-container h1 {
     font-size: 45px;
     line-height: 1.5;
   }
 
-  .about-section {
+  .content-container {
     padding: 80px 20px;
     text-align: center;
   }
 
-  .about-section img {
+  .content-container img {
     padding: 40px 20px;
+  }
+
+  .weather-img {
+    padding: 40px 20px 20px 20px !important;
   }
 }
 
